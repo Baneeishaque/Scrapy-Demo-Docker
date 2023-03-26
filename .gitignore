@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/pydev,macos,linux,python,vagrant,windows,pycharm+all,jetbrains+all
 
 ### JetBrains+all ###
@@ -318,6 +317,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
 
 # End of https://www.gitignore.io/api/pydev,macos,linux,python,vagrant,windows,pycharm+all,jetbrains+all
