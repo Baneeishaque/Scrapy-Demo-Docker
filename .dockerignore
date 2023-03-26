@@ -1,4 +1,9 @@
-#.vagrant
+.venv
+.dockerignore
 .gitignore
-#Dockerfile
-#Vagrantfile
+.pyup.yml
+.whitesource
+azure-pipelines-docker.yml
+Dockerfile
+renovate.json
+runSpider.ps1
