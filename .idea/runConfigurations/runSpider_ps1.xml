@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runSpider.ps1" type="PowerShellRunType" factoryName="PowerShell" scriptUrl="C:\Lab_Data\Scrapy-Demo-Docker\runSpider.ps1" workingDirectory="C:\Lab_Data\Scrapy-Demo-Docker" executablePath="C:\Program Files\WindowsApps\Microsoft.PowerShellPreview_7.4.2.0_x64__8wekyb3d8bbwe\pwsh.exe">
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
