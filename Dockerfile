@@ -2,9 +2,9 @@ FROM python:3.11.2-slim
 
 WORKDIR /usr/src/app
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
-
 COPY . .
 
-CMD [ "scrapy runspider", "test_spider.py" ]
+RUN pip install --no-cache-dir -r dev-requirements.txt \
+ && pip install --no-cache-dir -r requirements.txt
+
+CMD [ "scrapy", "runspider", "blog_spider.py" ]
