@@ -1,2 +1,2 @@
-.\.venv\Scripts\activate.ps1
-scrapy runspider .\blog_spider.py
+./.venv/bin/Activate.ps1
+scrapy runspider ./blog_spider.py
