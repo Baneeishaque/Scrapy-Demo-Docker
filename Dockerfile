@@ -2,6 +2,9 @@ FROM python:3.14-rc-alpine3.21
 
 RUN apk add --no-cache gcc musl-dev libxml2-dev libxslt-dev libffi-dev
 
+RUN addgroup -S mygroup && adduser -S -G mygroup myuser
+USER myuser
+
 WORKDIR /usr/src/app
 
 COPY . .
