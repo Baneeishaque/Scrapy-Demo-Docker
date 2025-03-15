@@ -1,9 +1,0 @@
-# configure dependency pinning globally
-# default: True
-# allowed: True, False
-pin: False
-
-# update schedule
-# default: empty
-# allowed: "every day", "every week", ..
-schedule: every day
