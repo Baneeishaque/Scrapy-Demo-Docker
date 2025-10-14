@@ -1,4 +1,4 @@
-FROM python:3.14-rc-alpine3.21
+FROM python:3.15-rc-alpine3.21
 
 RUN apk add --no-cache gcc musl-dev libxml2-dev libxslt-dev libffi-dev
 
